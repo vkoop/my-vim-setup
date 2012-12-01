@@ -24,3 +24,7 @@ map <leader>n :NERDTreeToggle<CR>
 
 "Ack
 map <leader>a <Esc>:Ack!
+
+"Colors
+set background=dark
+colorscheme solarized
