@@ -28,3 +28,6 @@ map <leader>a <Esc>:Ack!
 "Colors
 set background=dark
 colorscheme solarized
+
+"Fix filetypes
+let filetype_m='objc'
