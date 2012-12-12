@@ -31,3 +31,5 @@ colorscheme solarized
 
 "Fix filetypes
 let filetype_m='objc'
+
+set cursorline
