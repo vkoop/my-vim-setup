@@ -27,9 +27,11 @@ map <leader>a <Esc>:Ack!
 
 "Colors
 set background=dark
-colorscheme solarized
+colorscheme default 
 
 "Fix filetypes
 let filetype_m='objc'
 
 set cursorline
+
+nnoremap <F5> :GundoToggle<CR>
