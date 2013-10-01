@@ -46,3 +46,6 @@
 [submodule "bundle/vim-twig"]
 	path = bundle/vim-twig
 	url = https://github.com/evidens/vim-twig.git
+[submodule "bundle/vim-emmet"]
+	path = bundle/vim-emmet
+	url = https://github.com/mattn/emmet-vim.git
