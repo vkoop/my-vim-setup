@@ -46,3 +46,6 @@
 [submodule "bundle/vim-emmet"]
 	path = bundle/vim-emmet
 	url = https://github.com/mattn/emmet-vim.git
+[submodule "bundle/vim-jade"]
+	path = bundle/vim-jade
+	url = https://github.com/digitaltoad/vim-jade.git
