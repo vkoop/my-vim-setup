@@ -27,7 +27,7 @@ map <leader>a <Esc>:Ack!
 
 "Colors
 set background=dark
-colorscheme default 
+colorscheme desert
 
 "Fix filetypes
 let filetype_m='objc'
@@ -42,4 +42,3 @@ set encoding=utf-8 " Necessary to show Unicode glyphs
 
 let g:Powerline_symbols = 'fancy'
 
-set guifont=*
