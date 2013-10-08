@@ -25,9 +25,6 @@
 [submodule "bundle/vim-ack"]
 	path = bundle/vim-ack
 	url = git://github.com/mileszs/ack.vim.git
-[submodule "bundle/vim-clang-complete"]
-	path = bundle/vim-clang-complete
-	url = git://github.com/Rip-Rip/clang_complete.git
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized
