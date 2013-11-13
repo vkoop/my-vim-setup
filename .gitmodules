@@ -4,9 +4,6 @@
 [submodule "bundle/vim-nerdtree"]
 	path = bundle/vim-nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
-[submodule "bundle/vim-command-t"]
-	path = bundle/vim-command-t
-	url = git://git.wincent.com/command-t.git
 [submodule "bundle/vim-snipmate"]
 	path = bundle/vim-snipmate
 	url = git://github.com/msanders/snipmate.vim.git
