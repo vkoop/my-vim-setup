@@ -1,13 +1,30 @@
+set nocompatible              " be iMproved
+filetype off                  " required!
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
 "Fix for backspace problem
 set bs=2
 
-"pathogen to install plugins in bundles
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-call pathogen#infect()
-call pathogen#helptags()
+"Plugins....
+Bundle 'mileszs/ack.vim'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'kien/ctrlp.vim'
+Bundle 'mattn/emmet-vim'
+Bundle 'tpope/vim-eunuch'
+Bundle 'tpope/vim-fugitive'
+Bundle 'digitaltoad/vim-jade'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/nerdtree'
+Bundle 'Lokaltog/vim-powerline'
+Bundle 'msanders/snipmate.vim'
+Bundle 'tpope/vim-surround'
+Bundle 'evidens/vim-twig'
+
+
 
 filetype plugin indent on
-filetype plugin on
 
 syntax enable
 set number
@@ -41,4 +58,3 @@ set laststatus=2   " Always show the statusline
 set encoding=utf-8 " Necessary to show Unicode glyphs
 
 let g:Powerline_symbols = 'fancy'
-
