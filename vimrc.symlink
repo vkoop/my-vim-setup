@@ -18,11 +18,16 @@ Bundle 'digitaltoad/vim-jade'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdtree'
 Bundle 'Lokaltog/vim-powerline'
-Bundle 'msanders/snipmate.vim'
 Bundle 'tpope/vim-surround'
 Bundle 'evidens/vim-twig'
-
-
+Bundle 'garbas/vim-snipmate'
+Bundle 'mattn/gist-vim'
+Bundle 'scrooloose/syntastic'
+Bundle 'tomtom/tlib_vim'
+Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'honza/vim-snippets'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'jcf/vim-latex'
 
 filetype plugin indent on
 
