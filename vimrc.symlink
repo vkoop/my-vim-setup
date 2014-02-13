@@ -28,6 +28,7 @@ Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'honza/vim-snippets'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'jcf/vim-latex'
+Bundle 'rodjek/vim-puppet' 
 
 filetype plugin indent on
 
