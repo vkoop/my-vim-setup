@@ -29,6 +29,10 @@ Bundle 'honza/vim-snippets'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'jcf/vim-latex'
 Bundle 'rodjek/vim-puppet' 
+Bundle 'kchmck/vim-coffee-script' 
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'terryma/vim-multiple-cursors'
+Bundle 'derekwyatt/vim-scala'
 
 filetype plugin indent on
 
@@ -69,3 +73,9 @@ let g:Powerline_symbols = 'fancy'
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
 set relativenumber
+
+let g:EclimCompletionMethod = 'omnifunc'
+
+" CtrlP
+let g:ctrlp_custom_ignore = '\.git$\|log$\|tmp\|node_modules$\|.class$'
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip 
